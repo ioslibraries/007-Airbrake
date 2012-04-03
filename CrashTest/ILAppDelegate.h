@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ABNotifier.h"
 
-@interface ILAppDelegate : UIResponder <UIApplicationDelegate>
+@class ILTestViewController;
+@interface ILAppDelegate : UIResponder <UIApplicationDelegate, ABNotifierDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) ILTestViewController* viewController;
 @end

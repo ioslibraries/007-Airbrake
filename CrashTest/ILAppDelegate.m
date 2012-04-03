@@ -7,17 +7,27 @@
 //
 
 #import "ILAppDelegate.h"
+#import "ABNotifier.h"
+#import "ILTestViewController.h"
 
 @implementation ILAppDelegate
 
 @synthesize window = _window;
+@synthesize viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [ABNotifier startNotifierWithAPIKey:@"cd487dd09336ca6a49205af354228849" environmentName:ABNotifierAutomaticEnvironment useSSL:NO delegate:self];
+    
+    self.viewController = [[ILTestViewController alloc] initWithNibName:@"ILTestViewController" bundle:nil];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window setRootViewController:self.viewController];
+    
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -47,5 +57,23 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+#pragma mark notifier airbreak
+
+- (void)notifierWillDisplayAlert {
+    // in a game, pause
+}
+
+- (void)notifierDidDismissAlert {
+    
+}
+
+- (NSString *)titleForNoticeAlert {
+    return @"iOSLibraries alert !!";
+}
+- (NSString *)bodyForNoticeAlert {
+    return @"Oups, une erreur, il faut vite la regler.";
+}
+
 
 @end

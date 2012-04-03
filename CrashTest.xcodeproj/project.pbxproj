@@ -13,6 +13,21 @@
 		35499C941524F91B00AAAF4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35499C921524F91B00AAAF4A /* InfoPlist.strings */; };
 		35499C961524F91B00AAAF4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499C951524F91B00AAAF4A /* main.m */; };
 		35499C9A1524F91B00AAAF4A /* ILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499C991524F91B00AAAF4A /* ILAppDelegate.m */; };
+		35499CFF1524FC0600AAAF4A /* GCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499CDD1524FC0600AAAF4A /* GCAlertView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35499D001524FC0600AAAF4A /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499CE11524FC0600AAAF4A /* DDXMLElementAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35499D011524FC0600AAAF4A /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499CE41524FC0600AAAF4A /* NSString+DDXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35499D021524FC0600AAAF4A /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499CE71524FC0600AAAF4A /* DDXMLDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35499D031524FC0600AAAF4A /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499CE91524FC0600AAAF4A /* DDXMLElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35499D041524FC0600AAAF4A /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499CEB1524FC0600AAAF4A /* DDXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35499D051524FC0600AAAF4A /* ABNotice.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499CF01524FC0600AAAF4A /* ABNotice.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35499D061524FC0600AAAF4A /* ABNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499CF21524FC0600AAAF4A /* ABNotifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35499D071524FC0600AAAF4A /* ABNotifierFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499CF51524FC0600AAAF4A /* ABNotifierFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35499D081524FC0600AAAF4A /* HTNotifier.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35499CF61524FC0600AAAF4A /* HTNotifier.strings */; };
+		35499D0A1524FC2600AAAF4A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35499D091524FC2600AAAF4A /* libicucore.dylib */; };
+		35499D0C1524FC2A00AAAF4A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35499D0B1524FC2A00AAAF4A /* SystemConfiguration.framework */; };
+		35499D0E1524FC2F00AAAF4A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35499D0D1524FC2F00AAAF4A /* libxml2.dylib */; };
+		35499D15152504E700AAAF4A /* ILTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499D13152504E700AAAF4A /* ILTestViewController.m */; };
+		35499D16152504E700AAAF4A /* ILTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35499D14152504E700AAAF4A /* ILTestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +35,47 @@
 		35499C891524F91B00AAAF4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35499C8B1524F91B00AAAF4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35499C8D1524F91B00AAAF4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		35499C911524F91B00AAAF4A /* CrashTest-Info.plist */ = {isa = PBXFileReference; path = "CrashTest-Info.plist"; sourceTree = "<group>"; };
+		35499C911524F91B00AAAF4A /* CrashTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashTest-Info.plist"; sourceTree = "<group>"; };
 		35499C931524F91B00AAAF4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35499C951524F91B00AAAF4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35499C971524F91B00AAAF4A /* CrashTest-Prefix.pch */ = {isa = PBXFileReference; path = "CrashTest-Prefix.pch"; sourceTree = "<group>"; };
-		35499C981524F91B00AAAF4A /* ILAppDelegate.h */ = {isa = PBXFileReference; path = ILAppDelegate.h; sourceTree = "<group>"; };
+		35499C971524F91B00AAAF4A /* CrashTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashTest-Prefix.pch"; sourceTree = "<group>"; };
+		35499C981524F91B00AAAF4A /* ILAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILAppDelegate.h; sourceTree = "<group>"; };
 		35499C991524F91B00AAAF4A /* ILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILAppDelegate.m; sourceTree = "<group>"; };
+		35499CDC1524FC0600AAAF4A /* GCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCAlertView.h; sourceTree = "<group>"; };
+		35499CDD1524FC0600AAAF4A /* GCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCAlertView.m; sourceTree = "<group>"; };
+		35499CE01524FC0600AAAF4A /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		35499CE11524FC0600AAAF4A /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		35499CE31524FC0600AAAF4A /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		35499CE41524FC0600AAAF4A /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		35499CE51524FC0600AAAF4A /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		35499CE61524FC0600AAAF4A /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		35499CE71524FC0600AAAF4A /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		35499CE81524FC0600AAAF4A /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		35499CE91524FC0600AAAF4A /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		35499CEA1524FC0600AAAF4A /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		35499CEB1524FC0600AAAF4A /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		35499CED1524FC0600AAAF4A /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		35499CEF1524FC0600AAAF4A /* ABNotice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNotice.h; sourceTree = "<group>"; };
+		35499CF01524FC0600AAAF4A /* ABNotice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABNotice.m; sourceTree = "<group>"; };
+		35499CF11524FC0600AAAF4A /* ABNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNotifier.h; sourceTree = "<group>"; };
+		35499CF21524FC0600AAAF4A /* ABNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABNotifier.m; sourceTree = "<group>"; };
+		35499CF31524FC0600AAAF4A /* ABNotifierDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNotifierDelegate.h; sourceTree = "<group>"; };
+		35499CF41524FC0600AAAF4A /* ABNotifierFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNotifierFunctions.h; sourceTree = "<group>"; };
+		35499CF51524FC0600AAAF4A /* ABNotifierFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABNotifierFunctions.m; sourceTree = "<group>"; };
+		35499CF71524FC0600AAAF4A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/HTNotifier.strings; sourceTree = "<group>"; };
+		35499CF81524FC0600AAAF4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HTNotifier.strings; sourceTree = "<group>"; };
+		35499CF91524FC0600AAAF4A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HTNotifier.strings; sourceTree = "<group>"; };
+		35499CFA1524FC0600AAAF4A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/HTNotifier.strings; sourceTree = "<group>"; };
+		35499CFB1524FC0600AAAF4A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/HTNotifier.strings; sourceTree = "<group>"; };
+		35499CFC1524FC0600AAAF4A /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/HTNotifier.strings; sourceTree = "<group>"; };
+		35499CFD1524FC0600AAAF4A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/HTNotifier.strings; sourceTree = "<group>"; };
+		35499CFE1524FC0600AAAF4A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/HTNotifier.strings"; sourceTree = "<group>"; };
+		35499D091524FC2600AAAF4A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		35499D0B1524FC2A00AAAF4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		35499D0D1524FC2F00AAAF4A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		35499D12152504E700AAAF4A /* ILTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILTestViewController.h; sourceTree = "<group>"; };
+		35499D13152504E700AAAF4A /* ILTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILTestViewController.m; sourceTree = "<group>"; };
+		35499D14152504E700AAAF4A /* ILTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILTestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35499D0E1524FC2F00AAAF4A /* libxml2.dylib in Frameworks */,
+				35499D0C1524FC2A00AAAF4A /* SystemConfiguration.framework in Frameworks */,
+				35499D0A1524FC2600AAAF4A /* libicucore.dylib in Frameworks */,
 				35499C8A1524F91B00AAAF4A /* UIKit.framework in Frameworks */,
 				35499C8C1524F91B00AAAF4A /* Foundation.framework in Frameworks */,
 				35499C8E1524F91B00AAAF4A /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +115,9 @@
 		35499C881524F91B00AAAF4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35499D0D1524FC2F00AAAF4A /* libxml2.dylib */,
+				35499D0B1524FC2A00AAAF4A /* SystemConfiguration.framework */,
+				35499D091524FC2600AAAF4A /* libicucore.dylib */,
 				35499C891524F91B00AAAF4A /* UIKit.framework */,
 				35499C8B1524F91B00AAAF4A /* Foundation.framework */,
 				35499C8D1524F91B00AAAF4A /* CoreGraphics.framework */,
@@ -72,9 +128,13 @@
 		35499C8F1524F91B00AAAF4A /* CrashTest */ = {
 			isa = PBXGroup;
 			children = (
+				35499CDA1524FC0600AAAF4A /* Airbrake */,
 				35499C981524F91B00AAAF4A /* ILAppDelegate.h */,
 				35499C991524F91B00AAAF4A /* ILAppDelegate.m */,
 				35499C901524F91B00AAAF4A /* Supporting Files */,
+				35499D12152504E700AAAF4A /* ILTestViewController.h */,
+				35499D13152504E700AAAF4A /* ILTestViewController.m */,
+				35499D14152504E700AAAF4A /* ILTestViewController.xib */,
 			);
 			path = CrashTest;
 			sourceTree = "<group>";
@@ -88,6 +148,83 @@
 				35499C971524F91B00AAAF4A /* CrashTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35499CDA1524FC0600AAAF4A /* Airbrake */ = {
+			isa = PBXGroup;
+			children = (
+				35499CDB1524FC0600AAAF4A /* gcalertview */,
+				35499CDE1524FC0600AAAF4A /* kissxml */,
+				35499CEE1524FC0600AAAF4A /* notifier */,
+			);
+			path = Airbrake;
+			sourceTree = "<group>";
+		};
+		35499CDB1524FC0600AAAF4A /* gcalertview */ = {
+			isa = PBXGroup;
+			children = (
+				35499CDC1524FC0600AAAF4A /* GCAlertView.h */,
+				35499CDD1524FC0600AAAF4A /* GCAlertView.m */,
+			);
+			path = gcalertview;
+			sourceTree = "<group>";
+		};
+		35499CDE1524FC0600AAAF4A /* kissxml */ = {
+			isa = PBXGroup;
+			children = (
+				35499CDF1524FC0600AAAF4A /* Additions */,
+				35499CE21524FC0600AAAF4A /* Categories */,
+				35499CE51524FC0600AAAF4A /* DDXML.h */,
+				35499CE61524FC0600AAAF4A /* DDXMLDocument.h */,
+				35499CE71524FC0600AAAF4A /* DDXMLDocument.m */,
+				35499CE81524FC0600AAAF4A /* DDXMLElement.h */,
+				35499CE91524FC0600AAAF4A /* DDXMLElement.m */,
+				35499CEA1524FC0600AAAF4A /* DDXMLNode.h */,
+				35499CEB1524FC0600AAAF4A /* DDXMLNode.m */,
+				35499CEC1524FC0600AAAF4A /* Private */,
+			);
+			path = kissxml;
+			sourceTree = "<group>";
+		};
+		35499CDF1524FC0600AAAF4A /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				35499CE01524FC0600AAAF4A /* DDXMLElementAdditions.h */,
+				35499CE11524FC0600AAAF4A /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		35499CE21524FC0600AAAF4A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				35499CE31524FC0600AAAF4A /* NSString+DDXML.h */,
+				35499CE41524FC0600AAAF4A /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		35499CEC1524FC0600AAAF4A /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				35499CED1524FC0600AAAF4A /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		35499CEE1524FC0600AAAF4A /* notifier */ = {
+			isa = PBXGroup;
+			children = (
+				35499CEF1524FC0600AAAF4A /* ABNotice.h */,
+				35499CF01524FC0600AAAF4A /* ABNotice.m */,
+				35499CF11524FC0600AAAF4A /* ABNotifier.h */,
+				35499CF21524FC0600AAAF4A /* ABNotifier.m */,
+				35499CF31524FC0600AAAF4A /* ABNotifierDelegate.h */,
+				35499CF41524FC0600AAAF4A /* ABNotifierFunctions.h */,
+				35499CF51524FC0600AAAF4A /* ABNotifierFunctions.m */,
+				35499CF61524FC0600AAAF4A /* HTNotifier.strings */,
+			);
+			path = notifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +263,13 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				es,
+				fr,
+				nl,
+				ro,
+				ru,
+				"zh-Hant",
 			);
 			mainGroup = 35499C7A1524F91B00AAAF4A;
 			productRefGroup = 35499C861524F91B00AAAF4A /* Products */;
@@ -143,6 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35499C941524F91B00AAAF4A /* InfoPlist.strings in Resources */,
+				35499D081524FC0600AAAF4A /* HTNotifier.strings in Resources */,
+				35499D16152504E700AAAF4A /* ILTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +301,16 @@
 			files = (
 				35499C961524F91B00AAAF4A /* main.m in Sources */,
 				35499C9A1524F91B00AAAF4A /* ILAppDelegate.m in Sources */,
+				35499CFF1524FC0600AAAF4A /* GCAlertView.m in Sources */,
+				35499D001524FC0600AAAF4A /* DDXMLElementAdditions.m in Sources */,
+				35499D011524FC0600AAAF4A /* NSString+DDXML.m in Sources */,
+				35499D021524FC0600AAAF4A /* DDXMLDocument.m in Sources */,
+				35499D031524FC0600AAAF4A /* DDXMLElement.m in Sources */,
+				35499D041524FC0600AAAF4A /* DDXMLNode.m in Sources */,
+				35499D051524FC0600AAAF4A /* ABNotice.m in Sources */,
+				35499D061524FC0600AAAF4A /* ABNotifier.m in Sources */,
+				35499D071524FC0600AAAF4A /* ABNotifierFunctions.m in Sources */,
+				35499D15152504E700AAAF4A /* ILTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +323,21 @@
 				35499C931524F91B00AAAF4A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35499CF61524FC0600AAAF4A /* HTNotifier.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35499CF71524FC0600AAAF4A /* de */,
+				35499CF81524FC0600AAAF4A /* en */,
+				35499CF91524FC0600AAAF4A /* es */,
+				35499CFA1524FC0600AAAF4A /* fr */,
+				35499CFB1524FC0600AAAF4A /* nl */,
+				35499CFC1524FC0600AAAF4A /* ro */,
+				35499CFD1524FC0600AAAF4A /* ru */,
+				35499CFE1524FC0600AAAF4A /* zh-Hant */,
+			);
+			name = HTNotifier.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -222,6 +393,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashTest/CrashTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "CrashTest/CrashTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -233,6 +405,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashTest/CrashTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "CrashTest/CrashTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
